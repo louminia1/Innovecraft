@@ -7,4 +7,4 @@ bot.on("ready", function() {
     console.log("Innovecraft a bien etait connecter");
 });
 
-bot.login("NDUzNTMzNDkwOTgyNTUxNTgy.DfgSJg.h4Rz9O8LaDoRr2TXx7wOzgVJF5I");
+bot.login(process.env.TOKEN);
